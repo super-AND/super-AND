@@ -1,0 +1,2 @@
+from .cifar import CIFAR10SAND, CIFAR100SAND
+__all__ = ('CIFAR10SAND' 'CIFAR100SAND')
