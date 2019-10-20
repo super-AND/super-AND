@@ -136,7 +136,6 @@ def train(round, epoch, net, trainloader, optimizer, npc, criterion, criterion2,
                 outputs_e[i, indexes[i]] = -10
                 outputs_e[i + inputs.shape[0] // 2, indexes[i]] = -10 
             loss_e = criterion2(outputs_e) / inputs.size(0)
-            loss_e = criterion2(outputs) / inputs.size(0)
             e_loss.update(loss_e.item(), inputs.size(0))        
 
         loss = loss_i + val*loss_e
