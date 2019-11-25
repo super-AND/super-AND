@@ -9,7 +9,7 @@ This repository is the Pytorch implementation of "Super-AND: A Holistic Approach
 * The extensive experiments and ablation study show that every component in Super-AND contributes to the performance increase and also indicate their synergies are critical.
 
 
-## Experimnet
+## Experimt
 The proposed Super-AND outperforms state-of-the-art baselines and following tables are the main results evaluated on two kinds of datasets: coarse-grained and fine-grained.
 
 * Table 1: kNN Evaluation on coarse-grained datasets
