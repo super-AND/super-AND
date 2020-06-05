@@ -49,3 +49,4 @@ python3 main.py --dataset cifar10 --network resnet18
 ```
 python3 main.py --resume ckpt_SAND.t7 --test_only
 ```
+# NBDSCV
