@@ -1,10 +1,10 @@
 # Super-AND
 This repository is the Pytorch implementation of "A Comprehensive Approach to Unsupervised Embedding Learning based on AND Algorithm"
 * Illustration of basic architecture in Super-AND.
-<img src="./fig/basic.png">
+<img src="./fig/basic2.png">
 
 ## Highlight
-* We efficiently unify various techniques from state-of-the-art models and introduce a new loss, UE-loss, to make similar data samples gather in the low-density space.
+* We efficiently unify various techniques from state-of-the-art models and introduce a new loss, AE-loss, considers the adversarial training on the unsupervised embedding learning task.
 * Super-AND outperforms all baselines in various benchmark datasets. It achieved an accuracy of 89.2% in the CIFAR-10 dataset with the Resnet18 backbone network, compared to the state-of-the-art that gained 86.3%.
 * The extensive experiments and ablation study show that every component in Super-AND contributes to the performance increase and also indicate their synergies are critical.
 
@@ -14,11 +14,11 @@ The proposed Super-AND outperforms state-of-the-art baselines and following tabl
 
 * Table 1: kNN Evaluation on coarse-grained datasets
 
-<img src="./fig/coarse.png">
+<img src="./fig/coarse2.png">
 
 * Table 2: kNN Evaluation on fine-grained datasets
 
-<img src="./fig/fine.png">
+<img src="./fig/fine2.png">
 
 
 ## Qualitative Analysis
